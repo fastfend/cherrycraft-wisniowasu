@@ -58,6 +58,9 @@ iframe
         outline: none;
         height: 80px;
         width: 80px;
+        @media (max-width: 450px) {
+            width: 79px;
+        }
         img{
             height: 100%;
             width: 100%;
@@ -178,6 +181,30 @@ iframe
                     to { background-color: #ff5c00; box-shadow: 0 0 12px rgba($color: #ff5c00, $alpha: 0.3); }
                   }
             }
+        }
+    }
+    &.secondary
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-flow: column;
+
+        a
+        {
+            position: relative;
+            text-decoration: none;
+            cursor: pointer;
+            border: 0;
+            outline: none;
+            color: rgba($color: #ffffff, $alpha: 0.98);;
+            padding: 15px;
+            line-height: 18px;
+            font-size: 18px;
+            border-radius: 4px;
+            background-color: #ff5c00;
+            box-shadow: 0 0 12px rgba($color: #ff5c00, $alpha: 0.3);
         }
     }
 }

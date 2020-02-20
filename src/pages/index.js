@@ -8,8 +8,10 @@ import ClipboardJS from "clipboard";
 
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import DiscordImage from "../images/icons8-discord-50.png";
+import MapImage from "../images/icons8-map-50.png";
 import HomePageImage from "../images/icons8-home-page-50.png";
 import InfoImage from "../images/icons8-info-50.png";
+import GlobeImage from "../images/icons8-location-100.png";
 import PoweredImage from "../images/powered_logo.png";
 import GitHub from "../images/github-brands.svg";
 import packageJson from '../../package.json';
@@ -48,6 +50,8 @@ export default ({ data }) => (
                 <Tab><img src={InfoImage} alt="Informacje"></img></Tab>
                 <div className="divider"></div>
                 <Tab><img src={DiscordImage} alt="Discord"></img></Tab>
+                <div className="divider"></div>
+                <Tab><img src={MapImage} alt="Mapa"></img></Tab>
                 </TabList>
             
                 <TabPanel className="react-tabs__tab-panel main">
@@ -71,6 +75,11 @@ export default ({ data }) => (
                 </TabPanel>
                 <TabPanel>
                 <iframe title="Discord" src="https://discordapp.com/widget?id=661204871722041344&theme=dark" width="350" height="500" allowtransparency="true" frameBorder="0"></iframe>
+                </TabPanel>
+                <TabPanel className="react-tabs__tab-panel secondary">
+                <img src={GlobeImage} alt="Mapa"></img>
+                <h2>Mapa świata</h2>
+                <a href="/mapa">Otwórz</a>
                 </TabPanel>
             </Tabs>
         </Container>
