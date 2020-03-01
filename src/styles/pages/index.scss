@@ -99,12 +99,19 @@ iframe
 
     #patchnotes
     {
-        margin: 10px 0px 10px 10px;
+        margin: 10px;
         max-height: 500px;
         .updatename
         {
-            font-size: 23px;
+            font-size: 21px;
             line-height: 40px;
+        }
+        .text
+        {
+            display: block;
+            margin-top: 10px;
+            font-size: 13px;
+            line-height: 18px;
         }
     }
 
@@ -119,6 +126,29 @@ iframe
         img
         {
             border-radius: 40px;
+        }
+
+        a
+        {
+            position: relative;
+            text-decoration: none;
+            cursor: pointer;
+            border: 0;
+            outline: none;
+            color: rgba($color: #ffffff, $alpha: 0.98);;
+            padding: 5px 15px;
+            text-transform: uppercase;
+            margin: 20px 15px;
+            line-height: 18px;
+            font-size: 13px;
+            border-radius: 4px;
+            background-color: #e03942;
+            box-shadow: 0 0 12px rgba($color: #e03942, $alpha: 0.6);
+            transition: box-shadow 150ms ease-in-out;
+        }
+        a:hover
+        {
+            box-shadow: 0 0 12px rgba($color: #e03942, $alpha: 1);
         }
 
         #ip_box

@@ -64,13 +64,31 @@ export default ({ data }) => (
                         mc.wisniowasu.pl
                     </button>
                     <span className="version">Wersja MC: <b>1.14.4</b></span>
-                    <span id="online">GRACZY ONLINE: <b>ŁADUJĘ</b></span>
+                    <span id="online">GRACZY ONLINE: <b>ŁADUJĘ</b></span>                    
                 </div>
+                <a href="https://mcsklep.wisniowasu.pl">Wesprzyj projekt</a>
                 </TabPanel>
                 <TabPanel>
                 <div id="patchnotes">
-                <span className="updatename">Trochę o <b>serwerze</b></span>
-                
+                    <span className="updatename">
+                        Trochę o <b>serwerze</b>:
+                    </span>
+                    <br></br>
+                    <span className="text">
+                        CherryCraft: Reborn to nasz autorski projekt, nad którym siedzimy od dłuższego już czasu. Jak na razie prace postępują, a patch za patchem pojawiają się na serwerze coraz to nowsze zmiany.
+                    </span>
+                    <br></br>
+                    <span className="updatename">
+                        <b>Wprowadzenie</b>:
+                    </span>   
+                    <br></br>
+                    <span className="text">        
+                        Mamy obecnie rok 1120, jesień złotego okresu rozwoju kraju.
+                        Stolica, Vale, rozwija się i rozszerza swoje wpływy, budując pozamiejskie placówki pokroju Folwarków, i mimo niedawnych tajemniczych zdarzeń, oraz burzliwej historii, ma się świetnie.
+                        Powstają coraz to nowsze miasta i osady na terenie całego państwa, a Bariera stworzona nad całym krajem jest silna jak nigdy dotąd, chroniąc nas przed zagrożeniami z Zewnątrz.
+                        Mieszkańcy wiodą spokojne i szczęśliwe życie, a dzielni awanturnicy docierają w najdalsze zakątki państwa szukając sławy, bogactw, czy też miejsca na osiedlenie się.
+                        Sielanka i dobrobyt trwają, ale do czasu...
+                    </span>
                 </div>
                 </TabPanel>
                 <TabPanel>
