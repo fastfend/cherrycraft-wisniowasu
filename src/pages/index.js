@@ -85,7 +85,7 @@ export default ({ data }) => (
           <Img
             className="image"
             style={{ position: "absolute" }}
-            fluid={data.wiki.childImageSharp.fluid}
+            fixed={data.wiki.childImageSharp.fluid}
           />
         </a>
         <a className="option" href="/rejestracja">
@@ -93,7 +93,7 @@ export default ({ data }) => (
           <Img
             className="image"
             style={{ position: "absolute" }}
-            fluid={data.register.childImageSharp.fluid}
+            fixed={data.register.childImageSharp.fluid}
           />
         </a>
         <a className="option" href="/skins">
@@ -101,7 +101,7 @@ export default ({ data }) => (
           <Img
             className="image"
             style={{ position: "absolute" }}
-            fluid={data.skins.childImageSharp.fluid}
+            fixed={data.skins.childImageSharp.fluid}
           />
         </a>
         <a className="option" href="/discord">
@@ -109,7 +109,7 @@ export default ({ data }) => (
           <Img
             className="image"
             style={{ position: "absolute" }}
-            fluid={data.discord.childImageSharp.fluid}
+            fixed={data.discord.childImageSharp.fluid}
           />
         </a>
         <a className="option" href="/mapa">
@@ -117,7 +117,7 @@ export default ({ data }) => (
           <Img
             className="image"
             style={{ position: "absolute" }}
-            fluid={data.map.childImageSharp.fluid}
+            fixed={data.map.childImageSharp.fluid}
           />
         </a>
       </div>
